@@ -6,6 +6,7 @@
 }
 .input-group > button{
     margin: 10px;
+    min-width: 100px;
 }
 .input-group > input{
     margin: 10px;
@@ -19,3 +20,16 @@ h2{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 772px) {
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .input-group  input{
+        margin: 10px 0px;
+        min-width: 80%;
+    }
+  }

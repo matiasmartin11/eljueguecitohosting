@@ -1,6 +1,5 @@
 <div
-  *ngIf="!enPartida"
-  class="ps-2">
+  *ngIf="!enPartida">
   <app-lista-jugadores
     [enPartida] = "enPartida"
     (start)="comenzarPartida()"
@@ -9,8 +8,7 @@
     ></app-lista-jugadores>
 </div>
 <div
-  *ngIf="enPartida"
-  class="ps-2">
+  *ngIf="enPartida">
   <div
     *ngIf="mostrarTarjeta">
     <app-tarjeta-informacion  

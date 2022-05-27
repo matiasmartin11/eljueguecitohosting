@@ -23,12 +23,10 @@ export class JuegoComponent implements OnInit {
     this.listaJugadores = [
       {
         nombre: "matias",
-        edad: "21",
         id: 0
       },
       {
         nombre: "laura",
-        edad: "20",
         id: 1
       }
     ];
